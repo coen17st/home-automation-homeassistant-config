@@ -7,6 +7,7 @@
 !.gitignore
 !*.txt
 !Dockerfile
+!.HA_VERSION
 
 # Specific file ignores
 secrets.yaml
@@ -19,3 +20,8 @@ options.xml
 OZW_Log.txt
 zwcfg_*
 zwscene.xml
+
+# Ignore folders.
+.storage
+.cloud
+.google.token

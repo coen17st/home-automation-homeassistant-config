@@ -1,5 +1,4 @@
 ###### INTERGRATIONS ######
-
 default_config:
 ffmpeg:
 stream:
