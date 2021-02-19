@@ -1,27 +1,13 @@
-# Ignore all files
-*
-!*/
-
-# Allow type
-!*.yaml
-!.gitignore
-!*.txt
-!Dockerfile
-!.HA_VERSION
-
-# Specific file ignores
-secrets.yaml
-known_devices.yaml
-secrets.yaml
-ip_bans.yaml
-known_devices.yaml
-
-options.xml
-OZW_Log.txt
-zwcfg_*
-zwscene.xml
-
-# Ignore folders.
-.storage
-.cloud
-.google.token
+/config/.cloud
+/config/.storage
+/config/deps
+/config/.uuid
+/config/html5_push_registrations.conf
+/config/ip_bans.yaml
+/config/known_devices.yaml
+/config/options.xml
+/config/OZW_Log.txt
+/config/secrets.yaml
+/config/zwcfg_*
+/config/zwscene.xml
+/config/home-assistant.log
