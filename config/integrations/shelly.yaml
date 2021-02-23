@@ -4,7 +4,7 @@ shelly:
     - switch
     - current_consumption
   discover_by_ip:
-    - '192.168.1.26'
+    - !secret diner_table_ip
     - '192.168.1.43' #i3
     - '192.168.1.53'
     - '192.168.1.54'
